@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week 7 Assignment - CSS & JS Interactivity</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🎬 Bringing Web Pages to Life</h1>
+    <p>CSS Transitions + JavaScript Functions = ✨</p>
+  </header>
+
+  <main>
+    <!-- Part 1: CSS Animation -->
+    <section id="css-demo">
+      <h2>Part 1: CSS Transitions & Animations</h2>
+      <button class="animated-btn">Hover Me</button>
+      <div class="animated-box"></div>
+    </section>
+
+    <!-- Part 2: JavaScript Functions -->
+    <section id="js-demo">
+      <h2>Part 2: JavaScript Functions</h2>
+      <button onclick="calculateArea(5, 10)">Calculate Area (5x10)</button>
+      <p id="areaResult"></p>
+    </section>
+
+    <!-- Part 3: CSS + JS Integration -->
+    <section id="integration-demo">
+      <h2>Part 3: Combining CSS & JS</h2>
+      <button id="triggerBox">Animate the Box</button>
+      <div id="jsBox" class="box"></div>
+
+      <button id="openModal">Open Modal</button>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span id="closeModal">&times;</span>
+          <p>Hello! 🎉 This modal slides in and out!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
